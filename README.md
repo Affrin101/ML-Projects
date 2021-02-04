@@ -14,8 +14,15 @@ The things needed before we start building a python based web scraper are:
 • Basic understanding of Python and HTML.
 • Basic understanding of Git (download Git CLI from https://gitforwindows.org/)
 
+Explanation :
 
-
+The two more folders called ‘static’ and ‘templates’ hold the code for the UI of our application. The ‘static’ folder contains ‘css’
+for keeping the stylesheets for our UI.
+Inside the folder ‘templates’, there are three HTML files called: ‘base.html’,’index.html’, and ‘results.html’.
+• base.html→ It acts as the common building block for the other two HTML
+pages.
+• index.html→ Home page of our application.
+• results.html→ Page to show the reviews for the searched keyword.
 
 
 
